@@ -1,0 +1,15 @@
+Package: DESeqAid
+Title: DESeqAid: Kristin's favorite functions for her DESeq-based differential expression pipelines
+Version: 0.2
+Authors@R: person("Kristin", "Muench", email = "kmuench@stanford.edu", role = c("aut", "cre"))
+Description: This package includes a number of functions that Kristin Muench uses again and again in her DESeq analyses for the Palmer Lab. 
+Depends: R (>= 3.4.4)
+License: --
+Encoding: UTF-8
+LazyData: true
+Imports: DESeq2,
+    ggplot2,
+    reshape2,
+    pheatmap,
+    ggrepel
+RoxygenNote: 6.1.0.9000
