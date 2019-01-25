@@ -12,4 +12,4 @@ Imports: DESeq2,
     reshape2,
     pheatmap,
     ggrepel
-RoxygenNote: 6.1.0.9000
+RoxygenNote: 6.1.1

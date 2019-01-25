@@ -22,7 +22,7 @@
 #' theoBarPlot(results_sex, amySexGenes[,1], 0.58, 'Log2-Fold Change of Genes that are DE by Sex')
 
 
-theoBarPlot_lfcShrink <- function(myResults, highlightGenes, highlightGeneName, fcThreshold, myTitle, myWidth, myHeight){
+fcSortBarPlot_lfcShrink <- function(myResults, highlightGenes, highlightGeneName, fcThreshold, myTitle, myWidth, myHeight){
   
   # import needed libraries
   library(ggplot2)
