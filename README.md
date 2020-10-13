@@ -35,10 +35,9 @@ Finally, in R, navigate to the same working directory as the DESeqAid dir. In R:
 install("cats")
 ```
 
-### Import
-
 <a name="examples"></a>
-## Examples
+### Examples
+
 
 <a name="reflections"></a>
 ## To-Do List
