@@ -1,7 +1,7 @@
 # DESeqAid
 ## Functions I like with for my DESeq2
 
-- [ Intro ](#intro) - [ Usage ](#usage) - [ Examples ](#examples) - [ Reflections ](#reflections) -
+> [ Intro ](#intro) > [ Usage ](#usage) > [ Examples ](#examples) > [ Reflections ](#reflections) >
 
 <a name="intro"></a>
 ## Use Case
