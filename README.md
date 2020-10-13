@@ -12,24 +12,23 @@ I rely on this library for my [16p paper code](https://github.com/kmuench/16p_re
 Many thanks to Hilary Parker for enriching the community by providing this easy-to-read guide to [writing R packages](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/).
 
 ### Data exploration
-- checkSVs(): explore whether your surrogate variables (from SVA) correlated with known sources of variance
-- distPCA(): plots Principal Component Analysis
-- plotPCA_pickPCs(): plots Principal Component Analysis using the DESeq2 method, but lets you  pick which principal components to visualize
-- sampSimilarityHeatmap(): heatmap of sample correlation
+- **checkSVs()**: explore whether your surrogate variables (from SVA) correlated with known sources of variance
+- **distPCA()**: plots Principal Component Analysis
+- **plotPCA_pickPCs()**: plots Principal Component Analysis using the DESeq2 method, but lets you  pick which principal components to visualize
+- **sampSimilarityHeatmap()**: heatmap of sample correlation
 
 ### Functions for cleaning up the DESeq output a little
-- deseq_coef(): DESeq output given a DESeq coefficient
-- deseq_contrasts(): DESeq output given a contrast specified in design matrix
-- add_lfcShrink(): adds shrunken log FCs to DESeq results table
-- addHUGOnames(): if you did DE using ensembl genes, adds a column of corresponding HUGO gene names 
+- **deseq_coef()**: DESeq output given a DESeq coefficient
+- **deseq_contrasts()**: DESeq output given a contrast specified in design matrix
+- **add_lfcShrink()**: adds shrunken log FCs to DESeq results table
+- **addHUGOnames()**: if you did DE using ensembl genes, adds a column of corresponding HUGO gene names 
 
 ### Functions for visualizing DESeq output
-- fcSortBarPlot_lfcShrink()
-- DE_heatmap(): makes a heatmap from a count table in the way I wanted at that time
-- theoBarPlot(): ordered bar plot of gene expression, named after the advisor who encouraged its development
-- fcSortBarPlot_lfcShrink(): The Theo Palmer bar plot, but using shrunken logFCs
-- heatmapSexGenes(): heatmap of sex-linked genes
-- makeVolcanoPlot(): volcano plot from DESeq output
+- **DE_heatmap()**: makes a heatmap from a count table in the way I wanted at that time
+- **theoBarPlot()**: ordered bar plot of gene expression, named after the advisor who encouraged its development
+- **fcSortBarPlot_lfcShrink()**: The Theo Palmer bar plot, but using shrunken logFCs
+- **heatmapSexGenes()**: heatmap of sex-linked genes
+- **makeVolcanoPlot()**: volcano plot from DESeq output
 
 <a name="usage"></a>
 ## Usage
